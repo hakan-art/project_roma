@@ -4,15 +4,22 @@
     src: url(SANTIO/TTF/Santio\ Bold.ttf);
     
 }
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
 .header
 {
-    background: url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../img/cleo-topper.jpg);
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .erster-abschnitt
 {
@@ -74,13 +81,25 @@ body
     color: #fff;
 
 }
-h4{ 
+.scroll
+{
+    text-decoration: none;
     color: #e7bc0e;
+}
+h4{ 
     position: absolute;
     font-family: 'Mr Dafoe', cursive;
     font-size: 2vw;
     bottom: 0;
     left: 8%; 
+}
+.scroll:hover
+{
+    color: #cb91b6;
+}
+h4:hover+p
+{
+    color: #cb91b6;
 }
 h2{
     position: absolute;
@@ -100,7 +119,7 @@ h2{
     background: grey;
     padding-top: 1vh;
 }
-.zweiter-abschnitt
+#zweiter-abschnitt
 {   position: relative;
     height: 100vh;
 }
