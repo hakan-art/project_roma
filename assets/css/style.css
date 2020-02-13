@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Santio ;
+    
+    src: url(SANTIO/TTF/Santio\ Bold.ttf);
+    
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background: url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+.erster-abschnitt
+{
+    position: relative;
+   height: 100vh;   
+}
+.link-header
+{   position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    top: 3vh;
+    right: 7%;
+    color: #fff;
+    border-bottom: 1px solid #e7bc0e;
+    border-spacing: 5px;
+    font-size: 1.8vw;   
+}
+.logo
+{
+    position: absolute;
+    height: 4vh;
+    right: 11vw;
+    top: -1vh;
+    opacity: .7;
+}
+.link-header:hover
+{
+   color: #e7bc0e; 
+}
+
+.link-header:hover .logo
+{
+    height: 4.5vh;
+    opacity: 1;
+}
+
+.bruch
+{
+    display: block;
+}
+.pfeil
+{
+    color: #e7bc0e;
+    position: absolute;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 3vw;
+    bottom: -2%;
+    left: 24%; 
+    transform: rotate(85deg);
+}
+
+.oben
+{
+    position: absolute;
+    font-family: Santio;
+    left: 8%;
+    top: 20%;
+    font-size: 5.5vw;
+    color: #fff;
+
+}
+h4{ 
+    color: #e7bc0e;
+    position: absolute;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 2vw;
+    bottom: 0;
+    left: 8%; 
+}
+h2{
+    position: absolute;
+    width: 74vw;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #6bc1a3;
+    font-family: Santio;
+    font-size: 3.5vw;
+    margin: 0;
+    bottom: -35%;
+    line-height: 10vh;  
+}
+.hintergrund-schrift
+{
+    color: #fff;
+    background: grey;
+    padding-top: 1vh;
+}
+.zweiter-abschnitt
+{   position: relative;
+    height: 100vh;
+}
+
+.wappen
+{
+    height: 20vh;
+    position: absolute;
+    top: 20vh;
+    left: 18vw;
+}
+
+.dritter-abschnitt
+{
+    position: relative;
+    height: 100vh;
+}
+h3
+{
+    position: absolute;
+    width: 74vw;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #e7bc0e;
+    font-family: Santio;
+    font-size: 3.5vw;
+    margin: 0;
+    line-height: 10vh;  
+    bottom: 0;
+}
+.paid
+{
+    color: #cb91b6;
+}
+.health
+{
+    color: #6bc1a3;
+}
+.gross
+{
+    display: block;
+    font-size: 13.5vw;
+    line-height: 22vh;
+}
+.vierter-abschnitt
+{
+    position: relative;
+    height: 100vh;
+}
+.fünfter-abschnitt
+{
+    position: relative;
+    height: 100vh;
+}
+.sechster-abschnitt
+{
+    position: relative;
+    height: 100vh;
+}
+.unten
+{
+    left: 60vw;
+    position: absolute;
+    width: 60vw;
+    bottom: -40vh;
+    color: #7eb8e1;
+    
+}
+.bild
+{
+    background: url(../img/see.png) center/cover no-repeat;
+}
+.kid
+{
+    margin-bottom: -0.5vh;
+    width: 100vw;
+    
+}
+.ende{
+    background: #000;
+    position: relative;
+    height: 200vh;
+}
+h1
+{
+    position: absolute;
+    font-family: Santio;   
+    font-size: 9vw;
+    color: #fff;
+    width: 75vw;
+    top: 45vh;
+    left: 15vw;
+}
+.button
+{   position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    bottom: 55vh;
+    left: 15vw;
+    border: 1px solid #fff;
+    padding: 3vh 3vw;
+}
+.button:hover
+{
+    box-shadow: 4px 4px 0px #fff;
+
+}
+.credit
+{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.roma
+{
+    text-decoration: none;
+    color: #6bc1a3;
+}
+
