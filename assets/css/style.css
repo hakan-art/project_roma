@@ -1,8 +1,7 @@
 @font-face {
     font-family: Santio ;
     
-    src: url(SANTIO/TTF/Santio\ Bold.ttf);
-    
+    src: url(SANTIO/TTF/Santio\ Bold.ttf); 
 }
 html
 {
@@ -86,7 +85,8 @@ body
     text-decoration: none;
     color: #e7bc0e;
 }
-h4{ 
+h4
+{ 
     position: absolute;
     font-family: 'Mr Dafoe', cursive;
     font-size: 2vw;
@@ -101,7 +101,8 @@ h4:hover+p
 {
     color: #cb91b6;
 }
-h2{
+h2
+{
     position: absolute;
     width: 74vw;
     left: 53%;
@@ -123,7 +124,6 @@ h2{
 {   position: relative;
     height: 100vh;
 }
-
 .wappen
 {
     height: 20vh;
@@ -131,7 +131,6 @@ h2{
     top: 20vh;
     left: 18vw;
 }
-
 .dritter-abschnitt
 {
     position: relative;
@@ -186,7 +185,6 @@ h3
     width: 60vw;
     bottom: -40vh;
     color: #7eb8e1;
-    
 }
 .bild
 {
@@ -195,8 +193,7 @@ h3
 .kid
 {
     margin-bottom: -0.5vh;
-    width: 100vw;
-    
+    width: 100vw;   
 }
 .ende{
     background: #000;
@@ -227,7 +224,6 @@ h1
 .button:hover
 {
     box-shadow: 4px 4px 0px #fff;
-
 }
 .credit
 {
@@ -239,7 +235,6 @@ h1
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .roma
 {
     text-decoration: none;
